@@ -130,7 +130,15 @@ body {
         font-size: 18px;
         font-family: 'Roboto', sans-serif;
     }
-
+    .main__slogan:hover {
+        color: #31f420;
+    }
+    .main__slogan--destacado:hover {
+        color: #31f420;
+    }
+    .main__texto:hover {
+        color: #31f420;
+    }
     .main__enlace {
         background-color: #f92a82;
         color: #fff;
@@ -324,6 +332,15 @@ body {
         font-size: 30px;
         font-family: 'Roboto', sans-serif;
     }
+    .main__slogan:hover {
+        color: #31f420;
+    }
+    .main__slogan--destacado:hover {
+        color: #31f420;
+    }
+    .main__texto:hover {
+        color: #31f420;
+    }
 
     .main__enlace {
         background-color: #f92a82;
@@ -516,7 +533,15 @@ body {
         font-size: 30px;
         font-family: 'Roboto', sans-serif;
     }
-
+    .main__slogan:hover {
+        color: #31f420;
+    }
+    .main__slogan--destacado:hover {
+        color: #31f420;
+    }
+    .main__texto:hover {
+        color: #31f420;
+    }
     .main__enlace {
         background-color: #f92a82;
         color: #fff;
