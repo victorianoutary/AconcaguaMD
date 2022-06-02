@@ -4,71 +4,130 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="../images/Logo.jpg.png" />
-        <title>Aconcagua</title>
+        <link rel="shortcut icon" href="../images/Logo.jpg.png" />
+        <link rel="stylesheet" href="../css/bootstrap.min.css" />
         <link rel="stylesheet" href="../css/style.css" />
+        <title>Aconcagua</title>
     </head>
-    <body id="clientes">
+
+    <body class="p-3 mb-2 bg-black text-white">
         <!--HEADER-->
-        <header class="header">
+        <header>
             <img class="header__logo" src="../images/Logo.jpg.png" alt="Logo" />
             <h1 class="header__titulo">Aconcagua</h1>
             <nav>
-                <ul class="header__links">
-                    <li class="header__link">
-                        <a href="./proyectos.html">Marketing digital</a>
-                    </li>
-                    <li class="header__link">
-                        <a href="./trabajanos.html">Nosotros</a>
-                    </li>
-                    <li class="header__link">
-                        <a href="./empeza.html">Contacto</a>
-                    </li>
-                </ul>
+                <div class="float-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a
+                                class="text-decoration-none"
+                                href="../pages/proyectos.html"
+                                ><span class="fw-light"
+                                    >Marketing digital</span
+                                ></a
+                            >
+                        </li>
+                        <li class="list-inline-item">
+                            <a
+                                class="text-decoration-none"
+                                href="../pages/trabajanos.html"
+                                ><span class="fw-light">Nosotros</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a
+                                class="text-decoration-none"
+                                href="../pages/empeza.html"
+                                ><span class="fw-light">Contacto</span></a
+                            >
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <!--FIN HEADER-->
-        <section class="clientes">
-            <h1 class="clientes__titulo">Nuestros clientes</h1>
+        <section class="row">
+            <h3>Nuestros clientes</h3>
             <p class="clientes__texto">
                 Todas estas marcas nos eligieron para potenciar la productividad
                 de su empresa.
             </p>
-            <ul>
-                <li>
-                    <a
-                        class="clientes__enlace"
-                        href="https://www.laparolaccia.com/"
-                        ><img
-                            class="clientes__imagen"
-                            src="../images/download.jpg"
-                            alt="La parolaccia"
-                    /></a>
-                </li>
-
-                <li>
-                    <a class="clientes__enlace" href="https://www.zara.com/ar/">
-                        <img
-                            class="clientes__imagen"
-                            src="../images/zara.jpg"
-                            alt="ZARA"
-                    /></a>
-                </li>
-                <li>
-                    <a
-                        class="clientes__enlace"
-                        href="https://www.apple.com/la/"
-                    >
-                        <img
-                            class="clientes__imagen"
-                            src="../images/apple.jpg"
-                            alt="APPLE"
-                    /></a>
-                </li>
-            </ul>
+            <div class="col">
+                <div class="card" style="width: 16rem">
+                    <img
+                        src="../images/download.jpg"
+                        class="card-img-top"
+                        alt="La parolaccia"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">La Parolaccia</h5>
+                        <p class="card-text bg-white text-black">
+                            La Parolaccia nace en Roma, Italia. A mediados del
+                            siglo XX, una familia funda un humilde Restaurante
+                            en el tradicional Barrio Trastévere. Su particular
+                            modo de recibir a los clientes inspiró al nombre,
+                            que se convertiría en un sinónimo del buen comer. Lo
+                            llamaron “La Parolaccia” cuyo significado es “La
+                            Mala Palabra” o “La Palabrota”.
+                        </p>
+                        <a
+                            href="https://www.laparolaccia.com/"
+                            class="btn btn-primary"
+                            >Visita la pagina</a
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 16rem">
+                    <img
+                        src="../images/zara.jpg"
+                        class="card-img-top"
+                        alt="ZARA"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">ZARA</h5>
+                        <p class="card-text bg-white text-black">
+                            Zara es una cadena de moda española de Arteijo,
+                            España. Perteneciente al grupo Inditex, fue fundada
+                            por Amancio Ortega y Rosalía Mera.​ Es la cadena
+                            insignia del grupo textil Inditex y cuenta con más
+                            de 7000 tiendas repartidas por todo el mundo.​
+                        </p>
+                        <a
+                            href="https://www.zara.com/ar/"
+                            class="btn btn-primary"
+                            >Visita la pagina</a
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 16rem">
+                    <img
+                        src="../images/apple.jpg"
+                        class="card-img-top"
+                        alt="APPLE"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">APPLE</h5>
+                        <p class="card-text bg-white text-black">
+                            Apple, Inc. es una empresa estadounidense que diseña
+                            y produce equipos electrónicos, software y servicios
+                            en línea. Tiene su sede central en el Apple Park, en
+                            Cupertino y la sede europea en la ciudad de Cork.​
+                        </p>
+                        <a
+                            href="https://www.apple.com/la/"
+                            class="btn btn-primary"
+                            >Visita la pagina</a
+                        >
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
-            <p class="clientes__texto">
+            <p class="">
                 Todos nuestros clientes nos destacan por la seriedad y
                 compromiso con la que encaramos todos nuestros proyectos.
                 Nuestro objetivo es alcanzar el potencial máximo que tu
@@ -88,17 +147,25 @@
         <!--FOOTER-->
         <footer>
             <section class="footer">
-                <ul class="footer__enlaces">
+                <ul class="list-unstyled">
                     <li>
-                        <a href="http://www.instagram.com"
+                        <a
+                            class="text-decoration-none"
+                            href="http://www.instagram.com"
                             >Seguinos en instagram</a
                         >
                     </li>
                     <li>
-                        <a href="http://www.gmail.com">Envianos un e-mail</a>
+                        <a
+                            class="text-decoration-none"
+                            href="http://www.gmail.com"
+                            >Envianos un e-mail</a
+                        >
                     </li>
                     <li>
-                        <a href="https://api.whatsapp.com/send?phone=2478514392"
+                        <a
+                            class="text-decoration-none"
+                            href="https://api.whatsapp.com/send?phone=2478514392"
                             >Comunicate por whatsapp</a
                         >
                     </li>
